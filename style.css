@@ -1,0 +1,223 @@
+*
+{
+  font-family:'Poppins', sans-serif;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  background-color: #F4A460;
+  color:black;
+}
+
+#logopic
+{
+  width: 3%;
+}
+
+.logo
+{
+  background-color:#F4A460;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color:#F4A460;
+}
+
+.nav-links {
+  margin: 0;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.nav-links li
+{
+  display: inline;
+  list-style-type: none;
+}
+.nav-links a
+{
+  text-decoration: none;
+  font-weight: bold;
+  color: aliceblue;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+
+#navigation a
+{
+  text-decoration: none;
+}
+
+#title{
+  padding: 5%;
+  background-color:#5F9EA0;
+  text-align:center;
+  color: white;
+  margin-top: 0px;
+}
+
+#mission, #ourcorevalues{
+margin-top:10px;
+margin-left:120px;
+margin-right:120px;
+font-size:20px;
+color:#808080"
+}
+
+#executivesummary, #vissionstatement, #ourpromise, #ourstory, #StatementofNeed{
+margin-top:10px;
+margin-left:120px;
+margin-right:120px;
+}
+
+#executivesummary, #ourpromise, #ourstory, #StatementofNeed{
+  font-size:20px;
+}
+
+#corevalues
+{
+  padding-left: 30px;
+}
+
+#corevalues li
+{
+  padding-left: 10px;
+}
+
+#vissionstatement{
+  font-size:20px;
+}
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#E6E6FA;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.w3-container w3-row w3-center w3-dark-grey w3-padding-64{
+  background-color: #DEB887;
+}

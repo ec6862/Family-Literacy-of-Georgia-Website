@@ -1,0 +1,62 @@
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family:'Poppins', sans-serif;}
+body, html {
+  height: 80%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('picc1.jpeg');
+  min-height: 100%;
+}
+
+/* Second image*/
+.bgimg-2 {
+  background-image: url("pic4.jpeg");
+  min-height: 400px;
+}
+
+/* Third image */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+.gallery{
+  margin: 10px 10px 30px 30px;
+}
+
+.gallery img{
+  transition: 1s;
+  padding: 10px;
+  width:425px;
+}
+
+.gallery img:hover {
+  filter:grayscale(100%);
+  transform: scale(1.1);
+  size:98%;
+}
+
+</style>

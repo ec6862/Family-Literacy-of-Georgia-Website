@@ -1,0 +1,185 @@
+*
+{
+  font-family:'Poppins', sans-serif;
+}
+
+body
+{
+  height: 100%;
+  width: 100%;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  background-color: #F4A460;
+  color:black;
+}
+
+.logo
+{
+  color:aliceblue;
+}
+
+.nav-links {
+  margin: 0;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.nav-links li
+{
+  display: inline;
+  list-style-type: none;
+}
+.nav-links a
+{
+  text-decoration: none;
+  font-weight: bold;
+  color: aliceblue;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+#navigation a
+{
+  text-decoration: none;
+}
+
+.frontimg
+{
+  background-color:#5F9EA0;
+  padding: 5%;
+}
+/*
+  padding: 20% 0px;
+  background-image: url("https://www.heraldnet.com/wp-content/uploads/2020/07/22162343_web1_TSR-Nature-Books-edh-200726.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-attachment: unset;
+  background-repeat:no-repeat; 
+*/
+ul,li
+{
+
+}
+
+hr
+{
+  border-style: none;
+}
+
+.frontimg h1
+{
+  text-align: center;
+  font-weight: bold;
+  margin: 0px 30% 0px 30%;
+  color: white;
+  letter-spacing: 1px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.sponsorinfo
+{
+  padding: 50px 0px;
+}
+.sortimg
+{
+  text-align: center;
+  display: block;
+  margin: auto;
+} 
+
+p
+{
+  font-size:13px;
+  display: block;
+  text-align: center;
+}
+
+.column
+{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 25%;
+  margin-top: 5px;
+  padding: 5px 20px;
+}
+
+.column img
+{
+  width: 25%;
+  height: 100px;
+}
+
+h3
+{
+  padding-top: 5px;
+}
+
+  /*https://www.youtube.com/watch?v=9uWd2HoJI1c
+  https://engeniusweb.com/how-to-display-add-value-to-donors-and-sponsors-on-a-website/
+  https://www.dnnsummit.org/Sponsors
+  */
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#E6E6FA;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
